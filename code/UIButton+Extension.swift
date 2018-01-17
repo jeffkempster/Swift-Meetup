@@ -8,7 +8,7 @@
 
 import UIKit
 
-// Make sure clips to bounds is set in Storboard
+// Make sure clips to bounds is set in Storyboard
 
 @IBDesignable extension UIButton {
     
