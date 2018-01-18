@@ -7,7 +7,7 @@ This is a Xcode project that I used to demo various UI Layout techniques during 
 - Centering a label in a view
 - Add features to Xcode to set a button's corner radius, border width and border color from interface builder
 - How to use referenced storyboards, to break up large storyboards 
-- Set autolayout constraints programatically
+- Set autolayout constraints programmatically
 - Set TableView Cells to respond to changes in dynamic text sizes.  Older eyes 👀 will really like this one.
 - Use trait varying to set a different font size for label on iPhone vs. iPad
 - Using StackViews for laying out an interface
