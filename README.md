@@ -1,7 +1,7 @@
 # Swift Louisville Meetup
 
 ## Description
-This is a Xcode project that I used to demo various UI Layout techniques during the Swift Louisville Meetup.  
+This is a Xcode project that I used to demo various UI Layout techniques during the Swift Louisville Meetup. This was created in Xcode 9.2 using Swift.
 
 ## Topics
 - Centering a label in a view
