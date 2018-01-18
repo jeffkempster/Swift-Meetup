@@ -14,4 +14,4 @@ This is a Xcode project that I used to demo various UI Layout techniques during 
 - Using autolayout to set a "percentage" away from a view.  This one will allow you to set 30% on each side.  It was very useful for making a game work on iPad and iPhone.  It allowed objects to grow and shrink depending on device. 
 - Change button layout from vertical to horizontal based on portrait or landscape orientation. Uses trait varying
 
-**NOTE:** The project has several View Controllers, each one with a single topic.  I also added notes in the storyboard to help explain each topic. To run each demo on device/simulator simply select the View Controller and click the "Is Initial View Controller"
+**NOTE:** The project has several View Controllers, each one with a single topic.  I also added notes in the storyboard to help explain each topic. To run each demo on device/simulator, simply select the View Controller and click the "Is Initial View Controller" option.
