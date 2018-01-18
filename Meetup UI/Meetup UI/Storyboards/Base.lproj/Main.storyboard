@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xgs-QZ-FTh">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -723,6 +723,33 @@
             <point key="canvasLocation" x="-266" y="5639"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="Zwy-A7-9JC">
+            <objects>
+                <viewController id="xgs-QZ-FTh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fnh-8l-kkr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Center Me!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Gg-Th-pus">
+                                <rect key="frame" x="130" y="319.5" width="115.5" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4Gg-Th-pus" firstAttribute="centerY" secondItem="fnh-8l-kkr" secondAttribute="centerY" id="edc-5z-T1t"/>
+                            <constraint firstItem="4Gg-Th-pus" firstAttribute="centerX" secondItem="fnh-8l-kkr" secondAttribute="centerX" id="jhN-xx-Zqv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hgg-4V-2Qf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bxy-SL-rNO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1013" y="-1240"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="Av0-ma-Qm4">
             <objects>
                 <viewController id="jKf-hO-SJh" sceneMemberID="viewController">
@@ -733,7 +760,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wzl-9t-q1e">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">This is a basic example of how to center a label in the view.  By using autolayout constraints you will keep the label in the center of any device.   ************ There are multiple view controllers in tihs project.  To run one of them choose the view controller then check "Is initial view controller" in the attributes.  ************</mutableString>
+                                <string key="text">This is a basic example of how to center a label in the view.  By using autolayout constraints you will keep the label in the center of any device.   ************ There are multiple view controllers in tihs project.  To run one of them choose the view controller then check "Is initial view controller" in the attributes.  ************</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -750,7 +777,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rgt-Km-lu3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-250" y="-1258"/>
+            <point key="canvasLocation" x="-266" y="-1251"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="F6x-6h-lZO">
@@ -813,7 +840,7 @@ Command =  will Resize labels to fit content (so nice)</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="biU-WD-efG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-266" y="-2024"/>
+            <point key="canvasLocation" x="-266" y="-2000"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UaB-MT-KZ7">
